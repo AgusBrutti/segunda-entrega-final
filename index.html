@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acercarte</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Link de bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Link animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Links locales -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/home.js"></script>
+
+</head>
+
+<body>
+    <!-- fila de logo + nav -->
+    <header class="header">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="animate__animated animate__bounceInLeft logo-truck"
+                            src="imagenes/icon.png" alt="Logo Acercarte"><img class="logo-header"
+                            src="imagenes/full-texto.png" alt="Logo Acercarte">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a class="nav-text" href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" class="nav-text">Menú <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="pages/servicios.html" class="nav-text">Servicios</a></li>
+                                <li><a href="pages/nosotros.html" class="nav-text">Nosotros</a></li>
+                                <li><a href="pages/contacto.html" class="nav-text">Contacto</a></li>
+                                <li><a href="pages/blog.html" class="nav-text">Blog</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- cierre de fila logo + nav -->
+
+    <!-- fila de información de mi sitio -->
+    <section class="section-1">
+
+        <main class="main-container">
+            <div>
+                <img class="img1-home" src="imagenes/imagen-2-2.jpg" alt="envios">
+            </div>
+            <div class="resolveTitle-div">
+                <h1 class="resolveTitle">Resolvé tu logística</h1>
+                <div>
+                    <img class="img4-home" src="imagenes/logistics.png" alt="envios">
+                    <h2 class="title">Realizar Envíos</h2>
+                    <p class="text-subtitle">Resuelve envíos rápidos a tus clientes.</p>
+                </div>
+
+                <div>
+                    <img class="img5-home" src="imagenes/imagen_blog_2.jpg" alt="envios">
+                    <h2 class="title">Repartir con Acercarte</h2>
+                    <p class="text-subtitle">Regístrate a ti o a tu empresa como repartidor<br> y comienza a realizar
+                        entregas.</p>
+                </div>
+            </div>
+            <div>
+                <img class="img2-home" src="imagenes/imagen-1-1.jpg" alt="envios">
+            </div>
+        </main>
+
+        <div class="second-container">
+            <div class="third-container card-1">
+                <h3 id="h3-1">Comerciante</h3>
+                <p class="paragraph1">¿Te gustaría organizar y mejorar tu negocio? Inscribite con nosotros y te
+                    ayudaremos en todo lo que necesites.
+                    Vende tus productos por mayor con un mejor precio y envío de calidad. Obtené más información
+                    llenando el formulario.
+                </p>
+                <!-- Apertura de pop up -->
+                <dialog id="dialog1">
+                    <section class="text-contact">
+                        <h1 class="title-contact">Comerciantes</h1>
+                        <p>Completa el formulario y pronto nos comunicaremos con vos para que puedas comenzar a vender
+                            tus productos.
+                        </p>
+                    </section>
+                    <!-- formulario de contacto -->
+                    <section class="formulario">
+                        <form action="#" class="form-popup">
+                            <div class="form-control">
+                                <label for="nombre_contacto">Nombre</label>
+                                <input type="text" name="nombre_contacto" id="nombre">
+                            </div>
+                            <div class="form-control">
+                                <label for="apellido_contacto">Apellido</label>
+                                <input type="text" name="apellido_contacto" id="apellido">
+                            </div>
+                            <div class="form-control">
+                                <label for="telefono_contacto">Teléfono</label>
+                                <input type="tel" name="telefono_contacto" id="telefono">
+                            </div>
+                            <div class="form-control">
+                                <label for="email_contacto">Email</label>
+                                <input type="email" name="email_contacto" id="email">
+                            </div>
+                            <div class="forms-bottoms">
+                                <input type="submit" value="Enviar formulario" class="action action-primary">
+                                <button id="cancel1">Salir</button>
+                            </div>
+                        </form>
+                    </section>
+                </dialog>
+                <!-- FIN pop up -->
+                <button id="show1" class="action second-action"><span>Quiero ser comerciante</span></button>
+            </div>
+            <div>
+                <img class="img3-home" src="imagenes/imagen_blog_1.jpg" alt="envios">
+            </div>
+            <div class="third-container card-2">
+                <h3 id="h3-2">Transportistas</h3>
+                <p class="paragraph2">Hacé tus envíos de las mercaderías con un mejor confort con nuestra aplicación.
+                    Vas a tener mejores opciones para poder aceptar o rechazar los envíos que quieras y manejar tu
+                    horario
+                    laboral. Obtené más información llenando el formulario.
+                </p>
+                <!-- Apertura 2do popup -->
+                <dialog id="dialog2">
+                    <section class="text-contact">
+                        <h1 class="title-contact">Transportistas</h1>
+                        <p>Completa el formulario y pronto nos comunicaremos con vos para que puedas comenzar a repartir
+                            los pedidos.
+                        </p>
+                    </section>
+                    <!-- formulario de contacto -->
+                    <section class="formulario">
+                        <form action="#" class="form-popup">
+                            <div class="form-control">
+                                <label for="nombre_contacto">Nombre</label>
+                                <input type="text" name="nombre_contacto" id="nombre">
+                            </div>
+                            <div class="form-control">
+                                <label for="apellido_contacto">Apellido</label>
+                                <input type="text" name="apellido_contacto" id="apellido">
+                            </div>
+                            <div class="form-control">
+                                <label for="telefono_contacto">Teléfono</label>
+                                <input type="tel" name="telefono_contacto" id="telefono">
+                            </div>
+                            <div class="form-control">
+                                <label for="email_contacto">Email</label>
+                                <input type="email" name="email_contacto" id="email">
+                            </div>
+                            <div class="forms-bottoms">
+                                <input type="submit" value="Enviar formulario" class="action action-primary">
+                                <button id="cancel2">Salir</button>
+                            </div>
+                        </form>
+                    </section>
+                </dialog>
+                <!-- FIN popup -->
+                <button id="show2" class="action second-action"><span>Quiero ser transportista</span></button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Fin de la fila de información de mi sitio -->
+
+    <!-- inicio de footer -->
+    <footer>
+        <div>
+            <a href="index.html"></a><img class="logo-footer" src="imagenes/full.png" alt="Logo Acercarte"></a>
+            <ul class="list-footer">
+                <li class="list-1">Ing. Enrique Butty 275 Capital Federal, C1001 AFA, Buenos Aires</li>
+                <li class="list-1"><a class="diferent-a" href="pages/contacto.html"><b>Contacto</b></a></li>
+                <li>
+                    <div class="list-2">
+                        <a href="https://www.facebook.com/" target="_blank"><img class="logo-redes1"
+                                src="imagenes/facebook.png" alt="Logo Facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="logo-redes2"
+                                src="imagenes/instagram.png" alt="Logo Instagram"></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="copyright">
+                <p>Copyright &copy; Acercarte 2022</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- fin de footer -->
+
+</body>
+
+</html>

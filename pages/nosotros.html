@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Link de bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Link animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- Links locales -->
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../scripts/scripts.js"></script>
+
+</head>
+
+<body>
+    <!-- fila de logo + nav -->
+    <header class="header">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="animate__animated animate__bounceInLeft logo-truck"
+                        src="../imagenes/icon.png" alt="Logo Acercarte"><img class="logo-header"
+                        src="../imagenes/full-texto.png" alt="Logo Acercarte">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a class="nav-text" href="../index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" class="nav-text">Menú <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../pages/servicios.html" class="nav-text">Servicios</a></li>
+                                <li><a href="../pages/nosotros.html" class="nav-text">Nosotros</a></li>
+                                <li><a href="../pages/contacto.html" class="nav-text">Contacto</a></li>
+                                <li><a href="../pages/blog.html" class="nav-text">Blog</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- cierre de fila logo + nav -->
+
+    <!-- fila de información de mi sitio -->
+    <section class="section4">
+        <h1 class="title-nosotros">Nosotros</h1>
+        <div class="paragraph3">
+            <p>Somos una plataforma que te conecta con múltiples operadores y tipos de servicio en un solo lugar.
+                Brindamos soporte y herramientas para ayudarte a mejorar tu gestión, y a la vez ofrecemos distintas
+                alternativas de envío para que puedas optimizar costos y tiempos de entrega.
+            </p>
+            <p>Acercarte puede conectarse con tu tienda y cualquier otro sistema a través de sus integraciones y API.
+            </p>
+        </div>
+
+        <div class="paragraph3 collapsible-containter">
+            <h2>Preguntas frecuentes</h2>
+
+            <button type="button" class="collapsible">¿Acercarte es un transporte?</button>
+            <div class="content">
+                <p>No, no somos un transporte. Somos una plataforma que te conecta con diferentes operadores y te
+                    ayudamos en la gestión y soporte de tus envío para que puedas acceder a mejores precios y
+                    simplificar tus tareas logísticas.</p>
+            </div>
+
+            <button type="button" class="collapsible">¿Dónde veo los precios?</button>
+            <div class="content">
+                <p>No contamos con un tarifario fijo, por eso, es necesario que te registres en plataforma y cotices el
+                    envío (sin cargo) para ver las opciones y precios disponibles.</p>
+            </div>
+            <button type="button" class="collapsible">¿Tiene algún costo el servicio?</button>
+            <div class="content">
+                <p>No, el uso de la plataforma es totalmente gratuito. Solo tenés que cargar saldo en tu cuenta y desde
+                    ahí se va a debitar el costo de los envíos que realices.</p>
+            </div>
+            <button type="button" class="collapsible">¿Llegan a todo el país?</button>
+            <div class="content">
+                <p>Sí, llegamos a todos los puntos del país, incluyendo Tierra del Fuego.</p>
+            </div>
+            <button type="button" class="collapsible">¿Qué puedo enviar?</button>
+            <div class="content">
+                <p>Se envían productos de correo y expresos (pesados y voluminosos). Los transportes integrados envían
+                    desde auriculares hasta sillones, heladeras y materiales de construcción. Sólo NO se envían
+                    alimentos frescos, plantas o prohibidos.</p>
+            </div>
+            <button type="button" class="collapsible">¿Hay un mínimo de envíos por mes?</button>
+            <div class="content">
+                <p>No, podes comenzar a utilizar la plataforma cuando quieras.</p>
+            </div>
+            <button type="button" class="collapsible">¿Cómo es el despacho?</button>
+            <div class="content">
+                <p>Existen diferentes formas para despachar tus envíos. Podés despachar desde la sucursal del transporte
+                    o pueden pasar a recolectar los envíos por tu domicilio.</p>
+            </div>
+        </div>
+
+        <div>
+            <h3>¿Dónde estamos?</h3>
+            <iframe id="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7811.418639799748!2d-58.37644679603775!3d-34.596651454098314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3356b3ed21ee7%3A0xbd6f6786a7efaea1!2sWeWork%20Espacios%20de%20Oficinas%20%26%20Coworking%20Ing.%20Enrique%20Butty!5e0!3m2!1sen!2sar!4v1648495951035!5m2!1sen!2sar"
+                width="50%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    <!-- fin de información de mi sitio -->
+
+    <!-- inicio de footer -->
+    <footer>
+        <div>
+            <a href="index.html"></a><img class="logo-footer" src="../imagenes/full.png" alt="Logo Acercarte"></a>
+            <ul class="list-footer">
+                <li class="list-1">Ing. Enrique Butty 275 Capital Federal, C1001 AFA, Buenos Aires</li>
+                <li class="list-1"><a class="diferent-a" href="../pages/contacto.html"><b>Contacto</b></a></li>
+                <li>
+                    <div class="list-2">
+                        <a href="https://www.facebook.com/" target="_blank"><img class="logo-redes1"
+                                src="../imagenes/facebook.png" alt="Logo Facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="logo-redes2"
+                                src="../imagenes/instagram.png" alt="Logo Instagram"></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="copyright">
+                <p>Copyright &copy; Acercarte 2022</p>
+            </div>
+        </div>
+    </footer>
+    <!-- fin de footer -->
+
+</body>
+
+</html>

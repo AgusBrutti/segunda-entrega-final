@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Link de bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Link animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Links locales -->
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+    <!-- fila de logo + nav -->
+    <header class="header">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="animate__animated animate__bounceInLeft logo-truck"
+                        src="../imagenes/icon.png" alt="Logo Acercarte"><img class="logo-header"
+                        src="../imagenes/full-texto.png" alt="Logo Acercarte">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a class="nav-text" href="../index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" class="nav-text">Menú <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../pages/servicios.html" class="nav-text">Servicios</a></li>
+                                <li><a href="../pages/nosotros.html" class="nav-text">Nosotros</a></li>
+                                <li><a href="../pages/contacto.html" class="nav-text">Contacto</a></li>
+                                <li><a href="../pages/blog.html" class="nav-text">Blog</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- cierre de fila logo + nav -->
+
+    <section class="text-contact pageC">
+        <h1 class="title-contacto">CONTACTO</h1>
+        <p>Para consultas y dudas completar los siguientes datos.</p>
+    </section>
+    <!-- formulario de contacto -->
+    <form class="form-mine">
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Correo Electronico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="defaultCheck1">
+                ¿Desea recibir el Newsletter?
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        </div>
+        <h5>Seleccione una opción:</h5>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Soy transportista</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Soy comerciante</label>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Consulta:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="forms-bottoms">
+            <input type="reset" value="Limpiar formulario" class="action action-reset"> <input type="submit"
+                value="Enviar formulario" class="action action-primary">
+        </div>
+    </form>
+    <!-- cierre de form contacto -->
+
+    <!-- inicio de footer -->
+    <footer>
+        <div>
+            <a href="index.html"></a><img class="logo-footer" src="../imagenes/full.png" alt="Logo Acercarte"></a>
+            <ul class="list-footer">
+                <li class="list-1">Ing. Enrique Butty 275 Capital Federal, C1001 AFA, Buenos Aires</li>
+                <li class="list-1"><a class="diferent-a" href="../pages/contacto.html"><b>Contacto</b></a></li>
+                <li>
+                    <div class="list-2">
+                        <a href="https://www.facebook.com/" target="_blank"><img class="logo-redes1"
+                                src="../imagenes/facebook.png" alt="Logo Facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="logo-redes2"
+                                src="../imagenes/instagram.png" alt="Logo Instagram"></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="copyright">
+                <p>Copyright &copy; Acercarte 2022</p>
+            </div>
+        </div>
+    </footer>
+    <!-- fin de footer -->
+
+</body>
+
+</html>
